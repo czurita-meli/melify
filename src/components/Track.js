@@ -28,11 +28,11 @@ export default class Track extends React.Component {
     render() {
         return (
             <ListItem
-            image={{src: 'http://lorempixel.com/400/400'}}
+            image={{src: this.props.track.image}}
             primary={ `${this.props.track.name} - ${this.props.track.artists}` }
             tertiary={
                 <div className="track-actions flex flex-center-v">
-                    <audio name={this.props.track.id} src={this.props.track.preview_url}></audio>
+                    <audio name={this.props.track.id} src={this.props.track.preview}></audio>
                     <span onClick={this.removeTrack} className="icon-cross"></span>
                     <span
                     className={`${this.state.isPlaying ? 'icon-pause' : 'icon-play2'} track-icon`}

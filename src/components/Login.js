@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '@andes/card';
 import Button from '@andes/button';
 import './Login.css';
+import Axios from 'axios';
 
 class Login extends React.Component {
 
@@ -13,13 +14,18 @@ class Login extends React.Component {
     componentDidMount() {
         this.prepareToken();
         if (this.code) {
+            Axios.get('http://localhost:5000/token', {
+                headers: {code: this.code}
+            }).then(res => {
+                localStorage.setItem('token', res.data.token);
+            })
             this.props.history.push('/dashboard');
         }
     }
 
     prepareToken = () => {
         const pattern = /code=[\w-]+/;
-        const clientId = '2e366df90e124dd0a041ea54b363e0a1';
+        const clientId = '26ff4f9c1dca42bdb44a88bb1826f779';
         const scopes = [
             'user-read-playback-state',
             'ugc-image-upload',
