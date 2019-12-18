@@ -1,0 +1,7 @@
+.playlist__actions span {
+    vertical-align: middle;
+}
+
+.playlist__actions span:not(:last-child) {
+    margin-right: 20px;
+}

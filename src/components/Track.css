@@ -1,0 +1,8 @@
+.track-icon {
+    font-size: 2em;
+}
+
+.track-actions span:not(:last-child) {
+    margin-right: 20px;
+    font-size: 1.2em;
+}
