@@ -29,30 +29,36 @@ class Dashboard extends Component {
                     isLoading: false
                 })
             })
-        /*.then(data => this.setState({
-            playlists: data.data,
-            isLoading: false
-        }))*/
+            .catch(err => {
+                this.props.history.push('/');
+                throw new Error('Hubo un error al obtener los datos de usuario y playlists. ' + err);
+                
+            })
+    }
+
+    logout = () => {
+        localStorage.removeItem('token');
+        this.props.history.push('/');
     }
 
     render() {
         return (
             <div className="dashboard-app container">
                 <Spinner show={this.state.isLoading} />
-                {this.state.user && <header className="m-container flex flex-center-v">
+                <header className="m-container flex flex-center-v">
                     <div className="profile flex flex-center-h flex-center-v">
                         <div className="profile__picture">
-                            <img src={this.state.user.image} alt=""/>
+                            {this.state.user && <img src={this.state.user.image} alt=""/> }
                         </div>
-                        {/*<div className="profile__name">
-                            Hola Claudio!
-                        </div>*/}
+                        {<div onClick={this.logout} className="profile__name">
+                            Salir
+                        </div>}
                     </div>
                     <div className="search">
-                        <h1>Hola {this.state.user.display_name}!</h1>
+                        {this.state.user && <h1>Hola {this.state.user.display_name}!</h1>}
                         <input placeholder="Buscar" className="search-input" type="text"/>
                     </div>
-                </header>}
+                </header>
                 { this.state.playlists && <PlaylistContainer playlists={this.state.playlists}></PlaylistContainer>}
             </div>
         )
