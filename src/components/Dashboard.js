@@ -39,7 +39,7 @@ class Dashboard extends Component {
         return (
             <div className="dashboard-app container">
                 <Spinner show={this.state.isLoading} />
-                <header className="m-container flex flex-center-v">
+                {this.state.user && <header className="m-container flex flex-center-v">
                     <div className="profile flex flex-center-h flex-center-v">
                         <div className="profile__picture">
                             <img src={this.state.user.image} alt=""/>
@@ -52,7 +52,7 @@ class Dashboard extends Component {
                         <h1>Hola {this.state.user.display_name}!</h1>
                         <input placeholder="Buscar" className="search-input" type="text"/>
                     </div>
-                </header>
+                </header>}
                 { this.state.playlists && <PlaylistContainer playlists={this.state.playlists}></PlaylistContainer>}
             </div>
         )
