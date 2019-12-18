@@ -1,0 +1,199 @@
+[
+    {
+        "id": "1KwxqdVwRw0u61Cn94VjBo",
+        "name": "Electronica",
+        "tracks": [
+            {
+                "id": "2P4OICZRVAQcYAV2JReRfj",
+                "name": "Waiting For Love",
+                "album": "Stories",
+                "artists": [
+                    "Avicii"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            }
+        ]
+    },
+    {
+        "id": "780JAytLrm7l7n8jdexgPV",
+        "name": "Cuarteto",
+        "tracks": [
+            {
+                "id": "3XmpHN0jwCV1unk8ygs1Ku",
+                "name": "Que Bonito",
+                "album": "Los Verdugos De La Mufa",
+                "artists": [
+                    "Banda XXI"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "7MXVkk9YMctZqd1Srtv4MB",
+                "name": "Starboy",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd",
+                    "Daft Punk"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "4F7A0DXBrmUAkp32uenhZt",
+                "name": "Party Monster",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "4oeaIftdpT3JuZLcCkKmVE",
+                "name": "False Alarm",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "37F0uwRSrdzkBiuj0D5UHI",
+                "name": "Reminder",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "36YCdzT57us0LhDmCYtrNE",
+                "name": "Rockin’",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "00NAQYOP4AmWR549nnYJZu",
+                "name": "Secrets",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "1oGdVdYjeQvojGKDddxLQQ",
+                "name": "True Colors",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "4EDijkJdHBZZ0GwJ12iTAj",
+                "name": "Stargirl Interlude",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd",
+                    "Lana Del Rey"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "4h90qkbnW1Qq6pBhoPvwko",
+                "name": "Sidewalks",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd",
+                    "Kendrick Lamar"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "4mU5iXHeLgbR94siF7p1sY",
+                "name": "Six Feet Under",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "27BgDmciSjoxTG0almHTpZ",
+                "name": "Love To Lay",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "0ifooM33X1iBxVYyOkSbXW",
+                "name": "A Lonely Night",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "6pDVjCUA3B1vg9waKutAsv",
+                "name": "Attention",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "15k2nBQJ0teDmPZHrOXL2N",
+                "name": "Ordinary Life",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "57qiTKh8bVX0VtfUNTQqhw",
+                "name": "Nothing Without You",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "0NWqNXBJTpXbkI5rPWNy3p",
+                "name": "All I Know",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd",
+                    "Future"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "2Ch7LmS7r2Gy2kc64wv3Bz",
+                "name": "Die For You",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            },
+            {
+                "id": "3dhjNA0jGA8vHBQ1VdD6vV",
+                "name": "I Feel It Coming",
+                "album": "Starboy",
+                "artists": [
+                    "The Weeknd",
+                    "Daft Punk"
+                ],
+                "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86"
+            }
+        ]
+    }
+]
