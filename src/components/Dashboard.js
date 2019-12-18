@@ -17,7 +17,7 @@ class Dashboard extends Component {
         const playlists = Axios.get('http://localhost:5000/playlists', {
             headers: {Authorization: localStorage.getItem('token')}
         })
-        const user = Axios.get('http://localhost:5000/users', {
+        const user = Axios.get('http://localhost:5000/user', {
             headers: {Authorization: localStorage.getItem('token')}
         })
 

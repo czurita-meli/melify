@@ -18,8 +18,8 @@ class Login extends React.Component {
                 headers: {code: this.code}
             }).then(res => {
                 localStorage.setItem('token', res.data.token);
+                this.props.history.push('/dashboard');
             })
-            this.props.history.push('/dashboard');
         }
     }
 
